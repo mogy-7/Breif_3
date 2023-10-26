@@ -199,6 +199,8 @@ footer {
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
+  position: relative;
+    bottom: -89%;
 }
 
 footer div a {
@@ -311,7 +313,6 @@ footer div a {
   }
 }
 
-
 /* blog section  */
 
 .titer {
@@ -320,7 +321,7 @@ footer div a {
   align-items: center;
   flex-direction: column;
   background-color: #2f1c1c;
-  height: 376vh;
+  height: 100%;
   width: 100%;
 }
 .veux {
@@ -429,4 +430,7 @@ textarea {
   padding: 10px 20px;
   background-color: #000;
   cursor: pointer;
+}
+.dep {
+  padding-top: 250px;
 }
