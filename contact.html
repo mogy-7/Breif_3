@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,21 +9,60 @@
     <link rel="stylesheet" href="style/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&family=Young+Serif&display=swap" rel="stylesheet"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&family=Young+Serif&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/fe625e19aa.js" crossorigin="anonymous"></script>
+    <script></script>
     <title>Contact</title>
 </head>
+
 <body>
-    <form action="" >
-        <label for="fName">First Name </label>
-        <input type="text" name="fName" id="fName">
-        <label for="lName">laste Name </label>
-        <input type="text" name="" id="lName">
-        <label for="email">Email</label>
-        <input type="text" name="email" id="email">
-        <label for="message">your message </label>
-        <textarea name="" id="message" cols="24" rows="12"></textarea>
-        <input type="submit" id="submit" onclick="submitFunc">
-    </form>
+    <header>
+        <nav class="navbar">
+
+            <a href="index.html" class="nav-branding">MAGAZIN</a>
+
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a onclick="" href="blog.html" class="nav-link">Blog</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <!-- START CONTACT SECTION -->
+    <section id="contact">
+        <div class="container">
+            <form action="">
+                <input type="text" class="input-hold" placeholder="First name" required>
+
+                <input type="text" class="input-hold" placeholder="Last name" required>
+
+                <input type="email" class="input-hold" placeholder="Email" required>
+
+                <textarea name="text" class="input-hold" id="" cols="30" rows="10" placeholder="live your message here"required></textarea>
+                    <button id="sub"  type="submit" style="color: white;"> Send </button>
+            </form>
+            <script src="script-con.js"></script>
+        </div>
+
+
+        </div>
+    </section>
+    <!-- END CONTACT SECTION -->
+    <footer>
+        <div> <a href="FAQ.html">FAQ</a>
+            <a href="contact.html">Contatct us</a>
+        </div>
+        <h2>Privacy | Cookies</h2>
+        <H2>© Copyright Nouamane | Design HerstedHertz</H2>
+    </footer>
 </body>
+</body>
+
 </html>

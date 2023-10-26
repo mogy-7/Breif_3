@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&family=Young+Serif&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fe625e19aa.js" crossorigin="anonymous"></script>
+    <title>News Blog</title>
+</head>
+
+<body>
+
+    <section id="faq">
+        <div class="container">
+
+            <div class="hero">
+                
+            </div>
+            <center>
+                <h1>FAQ</h1>
+                <h3>your entersting quistions is ansered here please fell free to ask more</h3>
+            </center>
+            
+            <div class="contentBox active">
+                <h2 class="title">Question 1</h2>
+                <div class="content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga laborum saepe dolor illo porro quo
+                    odit maiores corporis cumque ratione?
+                </div>
+            </div>
+
+            <div class="contentBox">
+                <h2 class="title">Question 2</h2>
+                <div class="content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga laborum saepe dolor illo porro quo
+                    odit maiores corporis cumque ratione?
+                </div>
+            </div>
+
+            <div class="contentBox">
+                <h2 class="title">Question 3</h2>
+                <div class="content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga laborum saepe dolor illo porro quo
+                    odit maiores corporis cumque ratione?
+                </div>
+            </div>
+
+            <div class="contentBox">
+                <h2 class="title">Question 4</h2>
+                <div class="content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga laborum saepe dolor illo porro quo
+                    odit maiores corporis cumque ratione?
+                </div>
+            </div>
+
+            <div class="contentBox">
+                <h2 class="title">Question 5</h2>
+                <div class="content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga laborum saepe dolor illo porro quo
+                    odit maiores corporis cumque ratione?
+                </div>
+            </div>
+        </div>
+    </section>
+    <center><a href="index.html" style="color: white ; width: 5rem; background-color: black;border: 2px solid white; padding: 5px 10px; border-radius: 5px;">Home</a></center>
+
+    <script>
+        const showResponse = document.getElementsByClassName('contentBox');
+
+        for (i = 0; i < showResponse.length; i++) {
+            showResponse[i].addEventListener('click', function () {
+                this.classList.toggle('active');
+            })
+        }
+    </script>
+
+</body>
+
+</html>
